@@ -26,7 +26,6 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-        stages {
         stage('No-op') {
             steps {
                 sh 'ls'
